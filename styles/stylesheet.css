@@ -25,24 +25,30 @@ hr {
     border-width: 1px 0 0 0;
 }
 
-/* intro */
+/* header */
 
-#intro {
-    margin: 1.5em 0 2em;
+header {
+    margin-top: 1.5em;
 }
 
-.gloopy {
+#gloopy {
     display: flex;
     justify-content: center;
 }
 
-.gloopy img {
+#gloopy img {
     max-width: 100%;
     height: auto;
 }
 
-.gloopy .bucket {
+#gloopy .bucket {
     display: none;
+}
+
+/* intro */
+
+#intro {
+    margin-bottom: 2em;
 }
 
 /* list of hosted wikis */
@@ -65,14 +71,14 @@ hr {
 
 /* footer */
 
-#footer {
+footer {
     font-size: 85%;
     margin: 2em 0 3em;
     display: flex;
     flex-wrap: wrap;
 }
 
-#footer .links {
+footer .links {
     list-style: none;
     max-width: 600px;
     padding: 0;
@@ -83,24 +89,20 @@ hr {
     justify-content: space-around;
 }
 
-#footer .nowrap {
-    white-space: nowrap;
-}
-
 /* media queries */
 
 @media screen and (max-width: 600px) {
-    #footer .links {
+    footer .links {
         flex-flow: column wrap;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .gloopy .full {
+    #gloopy .full {
         display: none;
     }
 
-    .gloopy .bucket {
+    #gloopy .bucket {
         display: block;
     }
 }
