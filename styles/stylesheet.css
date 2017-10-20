@@ -79,7 +79,7 @@ hr {
 
 #footer .links {
     list-style: none;
-    max-width: 475px;
+    max-width: 600px;
     padding: 0;
     margin: 0 auto;
     display: flex;
@@ -93,11 +93,13 @@ hr {
 
 /* media queries */
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
     #footer .links {
         flex-flow: column wrap;
     }
+}
 
+@media screen and (max-width: 600px) {
     .gloopy .full {
         display: none;
     }
