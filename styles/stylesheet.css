@@ -51,6 +51,11 @@ header {
     margin-bottom: 2em;
 }
 
+#intro .move {
+    text-align: center;
+    font-weight: bold;
+}
+
 /* list of hosted wikis */
 
 #projects {
