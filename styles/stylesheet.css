@@ -41,10 +41,6 @@ header {
     height: auto;
 }
 
-#gloopy .bucket {
-    display: none;
-}
-
 /* intro */
 
 #intro {
@@ -99,15 +95,5 @@ footer .links {
 @media screen and (max-width: 600px) {
     footer .links {
         flex-flow: column wrap;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #gloopy .full {
-        display: none;
-    }
-
-    #gloopy .bucket {
-        display: block;
     }
 }

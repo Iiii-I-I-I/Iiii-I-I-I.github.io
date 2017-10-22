@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Weird Gloop Ltd.</title>
     <meta name="description" content="Weird Gloop Ltd. is the owner and operator of the RuneScape Wiki and Old School RuneScape Wiki.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="styles/stylesheet.css">
     <link rel="icon" sizes="16x16 32x32 48x48" href="favicon.ico">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
@@ -17,8 +18,10 @@
     <header>
         <div id="gloopy">
             <a href="https://weirdgloop.org" title="Weird Gloop Ltd.">
-                <img class="full" src="images/Weird-Gloop-logo.png" alt="Weird Gloop Ltd." width="400" height="160" srcset="images/Weird-Gloop-logo@2x.png">
-                <img class="bucket" src="images/Weird-Gloop-bucket.png" alt="Weird Gloop Ltd." width="118" height="135" srcset="images/Weird-Gloop-bucket@2x.png">
+                <picture>
+                    <source media="(max-width: 450px)" alt="Weird Gloop Ltd." srcset="images/Weird-Gloop-bucket.png 1x, images/Weird-Gloop-bucket@2x.png 2x">
+                    <img src="images/Weird-Gloop-logo.png" alt="Weird Gloop Ltd." srcset="images/Weird-Gloop-logo@2x.png 2x">
+                </picture>
             </a>
         </div>
     </header>
