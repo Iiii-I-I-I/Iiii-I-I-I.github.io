@@ -60,7 +60,7 @@ header {
     margin: 1.5em auto 0;
     width: 100%;
     max-width: 600px;
-    height: 180px;
+    height: 160px;
 
     background-color: #333;
     background-repeat: no-repeat;
@@ -173,5 +173,20 @@ footer .links {
 
     footer .links {
         flex-flow: column wrap;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    #projects {
+        flex-flow: row wrap;
+    }
+
+    .project {
+        width: 30%;
+    }
+
+    .project .logo img {
+        width: 95%;
+        height: auto;
     }
 }
