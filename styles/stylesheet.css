@@ -80,7 +80,7 @@ header {
 
 .project:hover {
     text-decoration: none;
-    filter: brightness(115%);
+    filter: brightness(110%);
 }
 
 .project .logo {
