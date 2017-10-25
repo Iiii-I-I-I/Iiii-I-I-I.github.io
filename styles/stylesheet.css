@@ -194,4 +194,8 @@ footer .links {
     .project .text {
         display: none;
     }
+
+    #project-osrs {
+        background-position: 40% center;
+    }
 }
