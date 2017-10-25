@@ -176,7 +176,7 @@ footer .links {
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 600px) {
+@media only screen and (min-width: 500px) and (max-width: 700px) {
     #projects {
         flex-flow: row wrap;
     }
@@ -186,7 +186,12 @@ footer .links {
     }
 
     .project .logo img {
+        margin: auto;
         width: 95%;
         height: auto;
+    }
+
+    .project .text {
+        display: none;
     }
 }
