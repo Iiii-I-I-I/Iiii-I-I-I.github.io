@@ -22,6 +22,7 @@ a:hover {
 hr {
     border: solid #eaeaea;
     border-width: 1px 0 0 0;
+    margin: 2em 0;
 }
 
 /* header */
@@ -40,24 +41,19 @@ header {
     height: auto;
 }
 
-/* intro */
-
-#intro {
-    margin-bottom: 2em;
-}
-
 /* list of hosted wikis */
 
 #projects {
-    margin-bottom: 2em;
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 525px;
 }
 
 .project {
     display: flex;
     position: relative;
-    margin: 1.5em auto 0;
     width: 100%;
     max-width: 600px;
     height: 160px;
@@ -130,7 +126,7 @@ header {
 
 footer {
     font-size: 85%;
-    margin: 2em 0 4em;
+    margin: -.5em 0 4em;
     display: flex;
 }
 
@@ -179,10 +175,11 @@ footer .links {
 @media only screen and (min-width: 500px) and (max-width: 700px) {
     #projects {
         flex-flow: row wrap;
+        height: 100%;
     }
 
     .project {
-        width: 30%;
+        width: 31%;
     }
 
     .project .logo img {
