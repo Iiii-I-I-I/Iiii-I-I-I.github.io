@@ -36,11 +36,6 @@ header {
     justify-content: center;
 }
 
-#gloopy img {
-    width: 100%;
-    height: auto;
-}
-
 /* list of hosted wikis */
 
 #projects {
@@ -158,20 +153,6 @@ footer .links {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .project .logo img {
-        margin: auto;
-    }
-
-    .project .text {
-        display: none;
-    }
-
-    footer .links {
-        flex-flow: column wrap;
-    }
-}
-
 @media only screen and (min-width: 500px) and (max-width: 700px) {
     #projects {
         flex-flow: row wrap;
@@ -194,5 +175,19 @@ footer .links {
 
     #project-osrs {
         background-position: 40% center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project .logo img {
+        margin: auto;
+    }
+
+    .project .text {
+        display: none;
+    }
+
+    footer .links {
+        flex-flow: column wrap;
     }
 }
