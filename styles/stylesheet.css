@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|PT+Serif:400,400i,700');
+
 body {
     background: #fcfcfc;
     color: #333;
@@ -5,7 +7,7 @@ body {
     min-width: 275px;
     max-width: 700px;
     margin: auto;
-    font-family: 'Georgia', 'Palatino', serif;
+    font-family: 'PT Serif', 'Palatino', serif;
     font-size: 1.15em;
     line-height: 1.5em;
 }
@@ -93,19 +95,19 @@ header {
     flex: 2;
     z-index: 1;
     color: #fff;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: bold;
     margin: auto 2em auto 0;
     text-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .project .name {
+    font-family: 'PT Serif', serif;
     font-size: 1.4em;
     margin: .35em 0;
 }
 
 .project .description {
-    font-size: .85em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: .9em;
     margin: 0;
 }
 
@@ -198,6 +200,6 @@ footer .links {
 
 @media only screen and (max-width: 450px) {
     #gloopy a {
-    width: 118px;
+        width: 118px;
     }
 }
