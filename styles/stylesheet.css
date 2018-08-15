@@ -182,6 +182,10 @@ footer .links {
     #project-osrs {
         background-position: 40% center;
     }
+
+    #project-meta {
+        background-position: 40% center;
+    }
 }
 
 @media only screen and (max-width: 600px) {
